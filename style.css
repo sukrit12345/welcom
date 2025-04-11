@@ -1,0 +1,62 @@
+/* รีเซ็ต */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* พื้นหลัง */
+  body {
+    min-height: 100vh;
+    background-color: #1b3362; /* เทาอ่อน */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+  }
+  
+  /* โลโก้ */
+  .logo-container {
+    margin-bottom: 32px;
+  }
+  
+  .logo {
+    width: 256px; /* เท่ากับ w-64 */
+  }
+  
+  /* กลุ่มปุ่ม */
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* ปุ่มเมนู */
+  .menu-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #374151; /* เทาเข้ม */
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #1f2937; /* hover เทาเข้มขึ้น */
+  }
+  
+  /* ส่วนท้าย */
+  .footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #6b7280; /* เทากลาง */
+  }
+  
